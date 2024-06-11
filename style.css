@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Tauri", sans-serif; 
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    --bgcolor:#7C1034;
+}
+.topsection{
+    background-color: var(--bgcolor);
+    height: 46px;
+}
+.location{
+    margin-left: 50px;
+    color: white; 
+}
+
+.topNav a span:hover{
+    color: rgb(177, 174, 174);
+}
+#tavellogo{
+    margin-left: 50px;
+}
+.link a span{
+    color: grey;
+}
+.link a span:hover{
+    color: var(--bgcolor);
+}
+@media(max-width:768px){
+    #tavellogo{
+        margin-left: 0px; 
+        width: 100px;
+    }
+    .location{
+        margin-left: 0px;
+    }
+    .carousel-caption .caroseltext{
+        margin-left: 20px;
+        font-size: 50px;
+        padding-bottom: 80px;
+    }
+    .carousel-caption .carouselBtn{
+        display: none;
+    }
+    
+}
+.caroseltext{
+    margin-bottom: 50px;
+    margin-left: -186px;
+    font-size: 75px;
+}
+.carouselBtn{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    background-color: var(--bgcolor);
+    color: white;
+    border: none;
+    margin-bottom: 100px;
+    margin-right: 652px;
+}
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .caroseltext, .carouselBtn {
+    animation: slideIn 1s ease-out ;
+  }
+  @media(max-width: 768px) {
+    .caroseltext, .carouselBtn {
+      animation-duration: 1s;
+    }
+  }  
+.packagebtn button{
+    color: var(--bgcolor);
+    background-color: #e7d8dc;
+    font-weight: 500;
+    padding: 8px 15px;
+}
+.packagebtn button:hover{
+    color: var(--bgcolor);
+    background-color: #e7d8dc;
+    font-weight: 500;
+    padding: 8px 15px;
+}
+.explorepackage h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.arrowright{
+    padding: 5px 10px; 
+    margin-left: 145px;
+    background-color: rgb(247, 243, 243);
+    color: black;
+}
+.arrowright:hover{
+    color: white;
+    background-color: var(--bgcolor);
+}
+.cardimg img:hover{
+    box-shadow: #7C1034;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .card:hover .arrowright {
+    display: inline-block; 
+  }
+  
+  .arrowright {
+    display: none; 
+  }
+.about{
+    background-image: url('./images/bgimg.jpg');
+}
+.aboutright h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+.icontick{
+    font-size: 25px;
+    margin-right: 20px;
+}
+.iconsafety{
+    font-size: 35px;
+    margin-right: 20px;
+    border: 1px solid red;
+    padding: 12px 15px;
+    background-color: white;
+}
+li{
+    list-style: none;
+}
+.headsafety{
+    font-size: 20px;
+}
+.parasafety{
+    font-size: 14px;
+    color: silver;
+    margin-left: 137px;
+}
+@media(max-width:768px){
+    .parasafety{
+        display: none;
+    }
+    .headsafety{
+        font-size: 16px;
+    }
+}
+
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("https://t3.ftcdn.net/jpg/03/14/93/52/360_F_314935256_Viyoy7Idw6KHDwqr73isZ1XUo3NY6QKR.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    position: relative;
+}
+.offering{
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+}
+.offering button{
+    color: white;
+    background-color: rgb(98, 107, 88);
+}
+
+#heading{
+    font-size: 50px;
+    font-weight: 600;
+}
+.adventurebtn{
+    background-color: rgb(148, 148, 135);
+    padding: 8px 15px;
+}
+@media(max-width:768px){
+    .offeringimg{
+        width: 400px;
+    }
+    .offering h2{
+        font-size: 25px;
+    }
+
+}
+.trekkingCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.advenIcon{
+    font-size: 80px;
+    
+}
+.advenCard:hover{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFi60pzI65_zP-glULqgj0KGsZTLlYo-mHv6jt_hCtBQ&s');
+}
+.adventarrow{
+    color: white;
+    background-color: var(--bgcolor);
+}
+.advenCard1:hover{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0eceR3HdpzD8CnAm8DwYU9_BHR565cinpxKB9PQW8h9b7PQ4iT7mq4RkgDlbvKiQWjeo&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.advenCard2:hover{
+    background-image: url('https://alleppeyhouseboat.in/wp-content/uploads/2019/02/doubledeck-Copy-1-1024x512.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.advenCard3:hover{
+    background-image: url('https://images.fineartamerica.com/images-medium-5/friends-sitting-around-campfire-joel-sheagren.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.advenCard4:hover{
+    background-image: url('https://media.istockphoto.com/id/1443409611/photo/man-on-stone-on-the-hill-and-beautiful-mountains-in-haze-at-colorful-sunset-in-autumn.webp?b=1&s=170667a&w=0&k=20&c=iqigoCobHZAp1jeWM8M6-bcNOxVCveZmy76u7YwOoAg=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.advenCard5:hover{
+    background-image: url('https://static.toiimg.com/photo/msid-84408827,width-96,height-65.cms');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+@media(max-width:768px){
+    .advenCard:hover{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFi60pzI65_zP-glULqgj0KGsZTLlYo-mHv6jt_hCtBQ&s');
+    }
+    .advenCard1:hover{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0eceR3HdpzD8CnAm8DwYU9_BHR565cinpxKB9PQW8h9b7PQ4iT7mq4RkgDlbvKiQWjeo&usqp=CAU');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .advenCard2:hover{
+        background-image: url('https://alleppeyhouseboat.in/wp-content/uploads/2019/02/doubledeck-Copy-1-1024x512.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .advenCard3:hover{
+        background-image: url('https://images.fineartamerica.com/images-medium-5/friends-sitting-around-campfire-joel-sheagren.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .advenCard4:hover{
+        background-image: url('https://media.istockphoto.com/id/1443409611/photo/man-on-stone-on-the-hill-and-beautiful-mountains-in-haze-at-colorful-sunset-in-autumn.webp?b=1&s=170667a&w=0&k=20&c=iqigoCobHZAp1jeWM8M6-bcNOxVCveZmy76u7YwOoAg=');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .advenCard5:hover{
+        background-image: url('https://static.toiimg.com/photo/msid-84408827,width-96,height-65.cms');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .adventarrow{
+        color: white;
+        background-color: var(--bgcolor);
+    }
+
+}
+
+@media(max-width:768px){
+    .aboutCard{
+        width: 135px;
+    }
+
+}
+.reviws{
+    text-align: justify;
+    line-height: 55px;
+}
+.available{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("https://png.pngtree.com/thumb_back/fw800/background/20230901/pngtree-a-tent-and-trees-with-stars-above-them-under-the-night-image_13125249.jpg");
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.availablebtn{
+    background-color: var(--bgcolor);
+    padding: 15px 25px;
+}
+
+.availablebtn:hover{
+    background-color: var(--bgcolor);
+    padding: 15px 25px;
+}
+.avlbbtn{
+    background-color: rgb(212, 188, 152);
+}
+
+@media(max-width:768px){
+    .imag1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .avlhead{
+       font-size: 22px;
+       text-align: center;
+    }
+}
+
+footer{
+    background-color: rgb(25, 26, 25);
+}
+.footerlogo p{
+    line-height: 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.footerlinks h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.footerlinks ul li{
+    font-size: 14px;
+    margin-top: 5px;
+}
+@media(max-width:768px){
+   footer{
+    text-align: center;
+   }
+   .footerheading{
+    font-size: 50px;
+   }
+   .accordionHeader{
+    text-align: center;
+   }
+}
+
+.accordion-item p{
+    font-size: 13px;
+    text-align: justify;
+    line-height: 33px;
+}
+.accordion-button[aria-expanded="true" ] {
+    background-color: var(--bgcolor);
+    font-weight: 700;
+    color: white;
+}
+.accordionHeader{
+    font-size:45px;
+}
+   html{
+    scroll-behavior: smooth;
+}
